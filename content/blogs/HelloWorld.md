@@ -2,9 +2,8 @@
 date: '2024-12-29T20:47:37+06:00'
 draft: true
 title: "Welcome to My Blog: A Developer's Journey"
-author: 'Ajran'
 github_link: "https://github.com/b14ck0ps"
-author: "Ajran"
+author: "Ajran Hossain"
 tags:
   - Introduction
 image: /images/blogs/HelloWorld/HelloWorldPostCover.svg
