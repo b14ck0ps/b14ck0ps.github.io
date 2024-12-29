@@ -272,54 +272,104 @@ params:
 
   # projects
   projects:
-    enable: false
+    enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Issue Tracker
+        content: Simple Issue tracker, made with NextJS14, Prisma, Postgres, RadixUI & tailwindcss. Using Docker to host on azure.
+        image: /images/projects/issuetraker/issueDashboard.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: GitHub
+          link: https://github.com/b14ck0ps/issue-tracker
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
+          - "NextJS"
+          - "Prisma-orm"
+          - "Postgres"
+          - "RadixUI"
+          - "Tailwind CSS"
+          - "Docker"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/b14ck0ps/issue-tracker
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+      - title: Codeplex - Blogging Platform
+        content: "Codeplex is a simple and user-friendly Responsive blogging platform built using Laravel and Tailwind CSS. It allows users to register, log in, post their own blogs, and read blogs written by others. The platform leverages Laravel's built-in authentication system to ensure secure user registration and login."
+        image: /images/projects/codeplex/reg_log.gif
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: GitHub
+          link: https://github.com/b14ck0ps/codeplex-blog
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "PHP"
+          - "Laravel"
+          - "Tailwind CSS"
+          - "MySQL"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/b14ck0ps/codeplex-blog
 
+      - title: Farmer's Assistant
+        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.Codeplex is a simple and user-friendly Responsive blogging platform built using Laravel and Tailwind CSS. It allows users to register, log in, post their own blogs, and read blogs written by others. The platform leverages Laravel's built-in authentication system to ensure secure user registration and login.
+        image: /images/projects/FarmerAssistant/order.gif
+        featured:
+          name: GitHub
+          link: https://github.com/b14ck0ps/FarmersAssistant
+        badges:
+          - "PHP"
+          - "Laravel"
+          - "Tailwind CSS"
+          - "MySQL"
+          - "smtp"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/b14ck0ps/FarmersAssistant
+
+      - title: Medisell
+        content: Medisell is an online platform that enables the customers to buy medicines from the comfort of their homes. The platform consists of a web application built using .NET Framework 4.8.1 with Web API and follows a 3-tier architecture. The application uses Entity Framework 6 Code First to communicate with a MSSQL database. The Frontend is made with NextJS and Tailwind.
+        image: /images/projects/medisell/cart.gif
+        featured:
+          name: GitHub
+          link: https://github.com/b14ck0ps/medicell-frontend
+        badges:
+          - "ASP.NET"
+          - "NextJS"
+          - "Tailwind CSS"
+          - "MSSQL"
+          - "Entity Framework"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/b14ck0ps/medicell-frontend
+
+      - title: Personal Journal
+        content: The Personal Journal API is a RESTful web service that provides a platform for users to create, manage and maintain their personal journal entries. The API is designed to allow users to easily register, login, and perform CRUD operations on their journal entries, tags, and comments.
+        image: /images/projects/personaljournal/post.gif
+        featured:
+          name: GitHub
+          link: https://github.com/b14ck0ps/personaljournal-frontend
+        badges:
+          - "JAVA"
+          - "Spring"
+          - "NextJS"
+          - "Tailwind CSS"
+          - "MySQL"
+          - "Hibernate"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/b14ck0ps/personaljournal-frontend
+
+      - title: Food Distribution System
+        content: The Food Distribution System is a project designed to help an NGO collect excess food from restaurants and distribute it to deprived people and children in Dhaka city. The system automates and tracks the entire workflow, from the restaurant opening a collect request to the distribution of food by the assigned employee.
+        image: /images/projects/foodmgt/res_reg.gif
+        featured:
+          name: GitHub
+          link: https://github.com/b14ck0ps/WasteFoodDistributionSystem
+        badges:
+          - "ASP.NET"
+          - "Blade"
+          - "ChartJS"
+          - "MySQL"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/b14ck0ps/WasteFoodDistributionSystem
   #Contact
   contact:
     enable: false

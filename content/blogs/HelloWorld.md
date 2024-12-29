@@ -7,7 +7,7 @@ github_link: "https://github.com/b14ck0ps"
 author: "Ajran"
 tags:
   - Introduction
-image: /images/HelloWorld/HelloWorldPostCover.svg
+image: /images/blogs/HelloWorld/HelloWorldPostCover.svg
 description: "An introduction to my world of coding, problem-solving, and innovation."
 toc:
 ---
