@@ -56,7 +56,7 @@ params:
   # title: ""
   description: "ERP Solution Developer specializing in Microsoft Dynamics 365 Business Central, with expertise in extension development, deployment, and client support. Experienced in creating tailored solutions to optimize business operations and streamline workflows. Passionate about exploring technologies like ASP.NET, Laravel, and DevOps to expand my skill set."
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/images/logo/a.svg"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -107,9 +107,9 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "" # Brand name for the brand | default is the title variable
+    brandLogo: "/images/logo/a.svg" # Logo for the brand | default is the favicon variable
+    showBrandLogo: true # Show brand logo in nav bar | default is true
+    brandName: "Ajran" # Brand name for the brand | default is the title variable
     disableSearch: true
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -130,14 +130,14 @@ params:
     intro: "Hi, my name is"
     title: "Ajran Hossain."
     subtitle: "I'm an ERP Solution Developer."
-    image: /images/hero.svg
+    image: /images/logo/a.svg
     bottomImage:
       enable: false
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://my.microsoftpersonalcontent.com/personal/b166c877c4c17ca6/_layouts/15/download.aspx?UniqueId=f5ef820a-3156-486a-a7a8-5d723d06a51f&Translate=false&tempauth=v1e.eyJzaXRlaWQiOiI3ZTlmYmQ3MS01Zjk4LTRlM2EtOGIwZS0zNzE4MmNkMDYwODkiLCJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvbXkubWljcm9zb2Z0cGVyc29uYWxjb250ZW50LmNvbUA5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJleHAiOiIxNzM1NDk2Njg5In0.mrqBzvQHs5WPbOUeNH7zhy3rULx-A79bzLMVaW56JGV7q7K3uMZeX19K6qPdiP5yMx8Fcc4ESJFYkmuAwe82C2aPWt6eq1mZuzXMWXjyC9UQEeymapcf7pMvhBI5qnrdjnr4hZ-OZ0YsGNsVZIN7zBYPprWVdpVA0DgQn0ALXFcp7pg6UexEdCmMxAR6380kACz0nvMhlGQZL671yLS5t4ntk5zxS0uJdVNCe83Ac366DFnfnWtW4XbYYnp7wFkQRNtdXLXyfFfqHLStl24BAbLq_MRRJnFEXS9BSGZvddv0gn27AefwyFIk_UD1wQ4Q3hBbERMen4UzR7a64t_cfLC9an3mNasQfz2E6fRgiv0BmMR_imObygIJOoFJ5i8FgNtpRivlJnQkGgk6l1Ws40yUNDv4U2YZJDSIxXnVQrW8ZCWWK51jUHsX8hWur6j4QpBX6a0wXYkI69msQBdUZZk5UZzo6L2JE_J9YgFlxEVUHX4QkwgiJen-kcxo3VdnPrI6e1l57MX4dvXRRacWKg.XnyqoOkTj_UvlHhUojdslgkh3mYOG-kL5a_7nccVv2A&ApiVersion=2.0"
       download: true
       newPage: false
     socialLinks:
