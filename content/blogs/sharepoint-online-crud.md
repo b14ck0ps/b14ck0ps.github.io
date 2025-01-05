@@ -97,7 +97,6 @@ internal class Program
 
         Console.WriteLine("\nOperations completed.");
     }
-    }
 
     private static SecureString GetSecureString(string password)
     {
@@ -200,8 +199,8 @@ internal class Program
    - **Retrieve All Lists**: Fetches and displays all lists in the site.
    - **Read Items**: Retrieves and displays items from a specific list.
    - **Create Items**: Adds a new item to a specified list.
-
-You can extend the code further to include update and delete operations by following similar patterns.
+   - **Update Items**: Updates an existing item in a list.
+   - **Delete Items**: Deletes an item from a list.
 
 Happy coding! 🚀
 
