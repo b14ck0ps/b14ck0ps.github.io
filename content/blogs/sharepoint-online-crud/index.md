@@ -192,8 +192,13 @@ internal class Program
     }
 }
 ```
-
+now you can run the application using the following command:
+```bash
+dotnet run
+```
+### Output:
 ---
+![Output](/images/blogs/sharepoint-online-crud/output.png)
 
 **List Operations**:
    - **Retrieve All Lists**: Fetches and displays all lists in the site.
