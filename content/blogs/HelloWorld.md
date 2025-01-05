@@ -54,7 +54,7 @@ Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/azran) or
 
 ---
 
-Thank you for visiting. Stay tuned for more content, and don’t forget to subscribe for updates. 🚀
+Thank you for visiting. Stay tuned for more content. 🚀
 
 Warm regards,  
 **Ajran Hossain**

@@ -1,6 +1,6 @@
 ---
 date: '2025-01-05T22:26:23+06:00'
-draft: true
+draft: false
 title: 'A Full CRUD for SharePoint Online with .NET 8'
 author: "Ajran Hossain"
 tags:
