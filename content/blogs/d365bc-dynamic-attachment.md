@@ -6,13 +6,14 @@ author: "Ajran Hossain"
 tags:
   - AL
   - D365BC
+image: /images/blogs/d365bc-dynamic-attachment/mail-output.png
 description: "Learn how to add a dynamic attachment generated from a custom report for a custom workflow in Dynamics 365 Business Central."
 ---
 ## How to Add a Dynamic Attachment Generated from a Custom Report for a Custom Workflow Email
 
 Recently, I received a request from a client to develop a Comparison Sheet Module for Quotations with an approval workflow. To achieve this, I followed the [official guide for workflow events and responses in Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-walkthrough-workflow-events-responses).
 
-While implementing the approval workflow, I encountered a challenge: the need to dynamically attach a document to the email notification sent for approval. After much exploration, I couldn’t find an easier solution, so I decided to tackle this problem using AL code and event subscriptions. While this might not be the best solution, it worked for my use case. Here’s how I did it.
+While implementing the approval workflow, I encountered a challenge: the need to dynamically attach a document to the email notification sent for approval. After much exploration, I couldn’t find an easier solution, so I decided to tackle this problem by subscribing an event. While this might not be the best solution, it worked for my use case. Here’s how I did it.
 
 ---
 
