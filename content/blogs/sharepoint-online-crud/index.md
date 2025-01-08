@@ -7,7 +7,6 @@ tags:
   - SharePoint
   - .NET
   - PnP Framework 
-image: /images/blogs/sharepoint-online-crud/SPCRUDCover.svg
 description: "Learn how to perform CRUD operations on SharePoint Online using .NET 8 and the PnP Framework."
 ---
 # A Full CRUD for SharePoint Online with .NET 8
