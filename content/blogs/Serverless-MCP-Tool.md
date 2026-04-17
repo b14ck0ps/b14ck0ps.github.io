@@ -9,7 +9,7 @@ disableFeaturedImageOnSingle: false
 description: "Host MCP tools on Azure Functions using .NET 10 isolated worker with a scalable serverless architecture."
 toc: true
 ---
-`MCP-Serverless-Core` is a minimal, production-ready starting point for hosting **Model Context Protocol (MCP)** tools on **Azure Functions** using the **.NET isolated worker model**.
+[MCP-Serverless-Core](https://github.com/b14ck0ps/MCP-Serverless-Core) is a minimal, production-ready starting point for hosting **Model Context Protocol (MCP)** tools on **Azure Functions** using the **.NET isolated worker model**.
 
 The goal is simple:
 Expose MCP-compatible tools through a **serverless endpoint** that can scale to zero, while staying lightweight and extensible.
@@ -161,6 +161,6 @@ From here, you can evolve it into:
 
 ## Source Code
 
-Available on GitHub (as always). Clone, extend, and build your own MCP-powered services.
+Available on GitHub [MCP-Serverless-Core](https://github.com/b14ck0ps/MCP-Serverless-Core) (as always). Clone, extend, and build your own MCP-powered services.
 
 ---
