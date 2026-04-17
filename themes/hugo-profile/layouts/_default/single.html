@@ -13,6 +13,10 @@
 {{ define "main" }}
 <section id="single">
   <div class="container">
+    {{ $disableFeaturedImageOnSingle := .Site.Params.singlePages.disableFeaturedImage | default false }}
+    {{ if isset .Params "disablefeaturedimageonsingle" }}
+      {{ $disableFeaturedImageOnSingle = .Params.disableFeaturedImageOnSingle }}
+    {{ end }}
     <div class="row justify-content-center">
       <div class="col-sm-12 col-md-12 col-lg-9">
         <div class="pr-lg-4">
@@ -30,7 +34,7 @@
               {{ end }}
             </div>
           </div>
-          {{ if .Params.image }}
+          {{ if and (.Params.image) (not $disableFeaturedImageOnSingle) }}
           <div class="featured-image">
             <img class="img-fluid mx-auto d-block" src="{{ .Params.image }}" alt="{{ .Title }}">
           </div>

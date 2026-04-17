@@ -5,6 +5,7 @@ title: "Building a Serverless MCP Tool Host with .NET 10 and Azure Functions"
 draft: false
 tags: ["dotnet", "azure-functions", "serverless", "mcp", "ai", "backend"]
 image: /images/blogs/Serverless-MCP-Tool/header.svg
+disableFeaturedImageOnSingle: false
 description: "Host MCP tools on Azure Functions using .NET 10 isolated worker with a scalable serverless architecture."
 toc: true
 ---
