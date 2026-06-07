@@ -1,6 +1,6 @@
 baseURL: "https://b14ck0ps.github.io/"
 languageCode: "en-us"
-title: "Ajran | Solution Developer"
+title: "Ajran | Software Engineer"
 theme: hugo-profile
 
 outputs:
@@ -129,15 +129,15 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "AJRAN HOSSAIN"
-    subtitle: "I'm an ERP Solution Developer."
+    subtitle: "I'm a Software Engineer"
     image: /images/logo/a.svg
     bottomImage:
-      enable: false
-    # roundImage: true # Make hero image circular | default false
+      enable: true 
+    roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "https://1drv.ms/b/c/b166c877c4c17ca6/EQqC7_VWMWpIp6hdcj0GpR8BiB9qaQq0GmQ9sgLeSh1Gow?e=K5XJOg"
+      url: "https://1drv.ms/b/c/b166c877c4c17ca6/IQD-kQo_xh3oTYrEElfZ08N1AYT73WnmS7JHai2amYAoNWg"
       download: true
       newPage: false
     socialLinks:
@@ -156,36 +156,53 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      ERP Solution Developer specializing in Microsoft Dynamics 365 Business Central, with expertise in extension development, deployment, and client support. Experienced in creating tailored solutions to optimize business operations and streamline workflows. Passionate about exploring technologies like ASP.NET, Laravel, and DevOps to expand my skill set.
+      I'm a Software Engineer specializing in Microsoft Dynamics 365 Business Central, .NET, and AI-powered solutions. I currently work at Brain Station 23, where I build scalable ERP customizations, integrations, and business automation systems for enterprise clients.
+
+      My experience includes leading multiple successful Business Central ERP implementations, developing custom extensions, designing API integrations, and building modern DevOps workflows using GitHub, PowerShell, Docker, and Windows Server environments. I also work with AI systems and multi-agent platforms, focusing on automation, content generation, and MCP-based architectures.
+
+      I enjoy solving complex business problems through clean architecture, practical engineering, and scalable system design. Beyond ERP development, I’m passionate about exploring modern AI tooling, backend engineering, and building products that improve operational efficiency and user experience.
+
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "AL Language"
-        - "PowerShell"
-        - "ASP.NET"
+        - ".NET"
         - "Docker"
-        - "Windows Server"
-        - "Version Control (Git)"
+        - "PowerShell"
+        - "Azure"
+        - "Copilot Studio"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Dynamics 365 Developer"
-        company: "Berger Tech Consulting Ltd."
-        companyUrl: "https://www.bergertechbd.com/"
-        date: "Sept 2023 - present"
+      - job: "Software Engineer I"
+        company: "Brain Station 23"
+        companyUrl: "https://brainstation-23.com/"
+        date: "June 2026 - Present"
         featuredLink:
           enable: false
           name: "View the project"
           url: "https://example.com"
         content: |-
-          - Developed and deployed customized Microsoft Dynamics 365 Business Central solutions, including HR, payroll, billing integrations, and VAT compliance.
-          - Optimized workflows, automated approvals, recovered data from legacy systems, and managed deployments using GitHub and PowerShell.
-          - Maintained R&D environments with Windows servers and Docker for seamless development and testing.
+              I'm currently working as a Software Engineer I at Brain Station 23, where I am responsible for developing integration between different systems and maintaining ERP solutions using Microsoft Dynamics 365 Business Central and .NET
 
+      - job: "Dynamics 365 Developer"
+        company: "Berger Tech Consulting Limited"
+        companyUrl: "https://www.bergertechbd.com/"
+        date: "Sept 2023 - May 2026"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        content: |-
+                - Led development for 5 successful Microsoft Dynamics 365 Business Central ERP implementations as a lead developer, delivering tailored solutions that improved operational efficiency and business workflows.
+                - Developed custom Business Central extensions including HR & Payroll modules, API-based billing integrations, VAT compliance solutions, and Power Apps self-service portal integrations.
+                - Designed and implemented automated approval workflows, while migrating and recovering critical data from legacy NAV systems with minimal downtime.
+                - Implemented DevOps and deployment workflows using GitHub, PowerShell, Windows Server environments, and Docker for streamlined development, testing, and production publishing.
+                - Served as Lead Engineer on an AI platform with multiple agents, supporting blog generation, content creation, sentiment analysis, and MCP server integration.
       # - job: "Software Developer"
       #   company: "Amazon"
       #   companyUrl: "https://example.com"
@@ -242,7 +259,7 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Bachelor of Science in Computer Science"
+      - title: "Bachelor of Science in Computer Science and Engineering (CSE)"
         school:
           name: "American International University-Bangladesh (AIUB)"
           url: "https://www.aiub.edu/"
@@ -260,15 +277,48 @@ params:
           enable: false
           name: "My academic record"
           url: "https://example.com"
+    
+      - title: "Higher Secondary Certificate (HSC)"
+        school:
+          name: "Giasuddin Islamic Model College"
+          url: "https://bn.wikipedia.org/wiki/%E0%A6%97%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B8%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%A8_%E0%A6%87%E0%A6%B8%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%95_%E0%A6%AE%E0%A6%A1%E0%A7%87%E0%A6%B2_%E0%A6%95%E0%A6%B2%E0%A7%87%E0%A6%9C"
+        date: "2016 - 2018"
+        GPA: "4.54 out of 5.00"
+        content: |-
+          Science group
 
+        featuredLink:
+          enable: false
+          name: "My academic record"
+          url: "https://example.com"
   # Achievements
   achievements:
     enable: true
-    title: "Publications & Achievements"
+    title: "Publications & Certifications"
     items:
       - title: "A Deep Learning Approach for Skin Cancer Prediction"
         content: "This research focuses on early detection of melanoma using a Convolutional Neural Network (CNN) built with PyTorch."
         url: https://dx.doi.org/10.62527/joiv.8.3-2.3081
+
+      - title: "Microsoft Azure Essentials"
+        content: "Microsoft Press · Issued May 2026"
+        url: https://www.linkedin.com/learning/certificates/2e343fc9e1f23a0bdd5aa431a2e2867054bbdade4fba28b602d641773bb27433
+
+      - title: "Model Context Protocol: Advanced Topics"
+        content: "Anthropic · Issued May 2026"
+        url: https://verify.skilljar.com/c/g66htz8wdieq
+
+      - title: "Introduction to Model Context Protocol"
+        content: "Anthropic · Issued May 2026"
+        url: https://verify.skilljar.com/c/zvjt4u7wzk4s
+
+      - title: "Building in Microsoft Copilot Studio"
+        content: "LinkedIn · Issued May 2026"
+        url: https://www.linkedin.com/learning/certificates/96c045ede98d93d825edc8393032b7a03d5ae2da0db9a7db01f1caa376d2e5cc
+
+      - title: "Managing Multiple Projects"
+        content: "Project Management Institute · Issued May 2026"
+        url: https://www.linkedin.com/learning/certificates/c5cc9da04c7c3dbafe74cb4ca5c3ef535fe3c1d81e04e6e7841458ea4a7f0e38
 
   # projects
   projects:
