@@ -1,17 +1,17 @@
 ---
-date: '2026-07-21T20:46:41+06:00'
+date: '2026-07-24T20:46:41+06:00'
 draft: false
-title: 'nopCommerce Swarm HA Cluster: How I Clustered a .NET Monolith Across Docker Swarm'
+title: 'An R&D Journey to Run nopCommerce Across Multiple Nodes in a Docker Swarm Cluster'
 author: "Ajran Hossain"
 tags:
   - nopCommerce
   - Docker Swarm
   - .NET Core
-# image: /images/blogs/some.jpg
-description: "A story of how I took nopCommerce, a stateful .NET Core monolith, and ran it across multiple nodes in a high-availability topology using Docker Swarm."
+image: /images/blogs/nopCommerce-with-docker-swarm/nop-docker-swarm-arch-cover.png
+description: "An R&D journey to run nopCommerce across multiple nodes in a Docker Swarm cluster."
 ---
 
-# I Clustered a .NET Monolith Across Docker Swarm Because Nobody Else Had Written It Down
+## I Clustered a .NET Monolith Across Docker Swarm Because Nobody Else Had Written It Down
 
 ## The problem nobody wanted to talk about
 
