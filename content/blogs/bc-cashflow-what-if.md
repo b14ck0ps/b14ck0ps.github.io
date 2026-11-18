@@ -1,7 +1,7 @@
 ---
 date: '2026-11-19T01:32:21+06:00'
 draft: false 
-title: "I dragged one slider and watched 13 weeks of cash fall apart"
+title: "Power Apps Code App: Cash Flow What-If on Live Business Central Data"
 author: "Ajran Hossain"
 tags: ["Business Central", "Power Apps", "Power Platform", "React", "Cash Flow"]
 summary: "A cash-flow what-if tool on live Business Central data, built as a Power Apps code app: the business case, the data flow, and the 404 that cost me an afternoon."
