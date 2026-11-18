@@ -1,8 +1,9 @@
 ---
 date: '2026-07-24T20:46:41+06:00'
 draft: false
-title: 'An R&D Journey to Run nopCommerce Across Multiple Nodes in a Docker Swarm Cluster'
+title: 'nopCommerce Multi-Nodes in a Docker Swarm Cluster'
 author: "Ajran Hossain"
+summary: "An R&D journey to run nopCommerce across multiple nodes in a Docker Swarm cluster. The post walks through the failure modes and fixes I hit while scaling a stateful .NET Core monolith across three replicas behind a load balancer, with shared database, cache, and file storage."
 tags:
   - nopCommerce
   - Docker Swarm
