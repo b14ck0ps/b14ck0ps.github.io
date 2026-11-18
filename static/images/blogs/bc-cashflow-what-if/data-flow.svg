@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" font-family="Segoe UI, system-ui, sans-serif" font-size="13">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#5f5e5a"/>
+    </marker>
+  </defs>
+  <rect width="760" height="330" rx="12" fill="#f9f9f7"/>
+
+  <!-- Row 1 -->
+  <rect x="20" y="30" width="150" height="70" rx="10" fill="#fff" stroke="#d9d8d1"/>
+  <text x="95" y="58" text-anchor="middle" font-weight="600" fill="#20201f">Business Central</text>
+  <text x="95" y="78" text-anchor="middle" fill="#5f5e5a">RND sandbox, read-only</text>
+
+  <rect x="205" y="30" width="150" height="70" rx="10" fill="#fff" stroke="#d9d8d1"/>
+  <text x="280" y="58" text-anchor="middle" font-weight="600" fill="#20201f">BC connector</text>
+  <text x="280" y="78" text-anchor="middle" fill="#5f5e5a">GetItemsV3 action</text>
+
+  <rect x="390" y="30" width="150" height="70" rx="10" fill="#fff" stroke="#d9d8d1"/>
+  <text x="465" y="58" text-anchor="middle" font-weight="600" fill="#20201f">bcService</text>
+  <text x="465" y="78" text-anchor="middle" fill="#5f5e5a">7 reads, paged</text>
+
+  <rect x="575" y="30" width="165" height="70" rx="10" fill="#fff" stroke="#d9d8d1"/>
+  <text x="657" y="58" text-anchor="middle" font-weight="600" fill="#20201f">toCashData</text>
+  <text x="657" y="78" text-anchor="middle" fill="#5f5e5a">13 weekly buckets</text>
+
+  <path d="M170 65H203" stroke="#5f5e5a" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M355 65H388" stroke="#5f5e5a" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M540 65H573" stroke="#5f5e5a" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- Down -->
+  <path d="M657 100V160" stroke="#5f5e5a" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- Row 2 -->
+  <rect x="575" y="162" width="165" height="70" rx="10" fill="#fff" stroke="#2a78d6" stroke-width="2"/>
+  <text x="657" y="190" text-anchor="middle" font-weight="600" fill="#20201f">simulate()</text>
+  <text x="657" y="210" text-anchor="middle" fill="#5f5e5a">pure function, no I/O</text>
+
+  <rect x="390" y="162" width="150" height="70" rx="10" fill="#fff" stroke="#d9d8d1"/>
+  <text x="465" y="190" text-anchor="middle" font-weight="600" fill="#20201f">3 sliders</text>
+  <text x="465" y="210" text-anchor="middle" fill="#5f5e5a">late, stretch, cancel</text>
+  <path d="M540 197H573" stroke="#5f5e5a" stroke-width="2" marker-end="url(#a)"/>
+
+  <rect x="20" y="162" width="335" height="70" rx="10" fill="#fff" stroke="#d9d8d1"/>
+  <text x="187" y="190" text-anchor="middle" font-weight="600" fill="#20201f">Dashboard</text>
+  <text x="187" y="210" text-anchor="middle" fill="#5f5e5a">cash curve, 3 KPI tiles, customer ranking</text>
+
+  <!-- simulate -> dashboard (routed under the sliders) -->
+  <path d="M657 232V262H187V234" fill="none" stroke="#5f5e5a" stroke-width="2" marker-end="url(#a)"/>
+
+  <text x="420" y="282" text-anchor="middle" fill="#5f5e5a">scenario results</text>
+  <text x="380" y="316" text-anchor="middle" fill="#b93535" font-weight="600">No writes back to Business Central</text>
+</svg>
