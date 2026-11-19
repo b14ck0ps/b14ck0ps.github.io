@@ -2,11 +2,10 @@
 name: Deploy Hugo site to Pages
 
 on:
-  # DISABLED: auto-run on push turned off; site is deployed via deploy.ps1 -> gh-pages.
-  # To re-enable, uncomment:
-  # push:
-  #   branches:
-  #     - master
+  # Runs on pushes targeting the default branch
+  push:
+    branches:
+      - master
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
