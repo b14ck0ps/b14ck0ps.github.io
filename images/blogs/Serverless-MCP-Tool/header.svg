@@ -1,0 +1,52 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="300" rx="28" fill="url(#bg)" />
+
+  <!-- Icon (left side) -->
+  <g transform="translate(70,80)">
+    <!-- Cloud -->
+    <path d="M80 60c0-18-14-30-30-30-12 0-22 7-27 17-3-1-5-2-8-2-11 0-20 9-20 20s9 20 20 20h63c11 0 20-9 20-20 0-10-7-18-16-20 0-2-1-4-2-5z"
+          fill="#38bdf8"/>
+    <!-- Lightning -->
+    <polygon points="70,50 45,95 75,95 60,140 110,80 80,80 95,50"
+             fill="#facc15"/>
+  </g>
+
+  <!-- Title (right side) -->
+  <text x="360" y="130" text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="26"
+        font-weight="600"
+        fill="#e2e8f0">
+    Serverless MCP
+  </text>
+
+  <text x="360" y="165" text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="22"
+        fill="#60a5fa">
+    with .NET 10
+  </text>
+
+  <!-- Subtitle -->
+  <text x="360" y="205" text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="14"
+        fill="#cbd5f5">
+    Azure Functions (Isolated Worker)
+  </text>
+
+  <text x="360" y="225" text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="14"
+        fill="#cbd5f5">
+    Event-driven • Scales to zero • Lightweight runtime
+  </text>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>.NET on Ajran | Software Engineer</title><link>https://www.ajran.dev/tags/.net/</link><description>Recent content in .NET on Ajran | Software Engineer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 05 Jan 2025 22:26:23 +0600</lastBuildDate><atom:link href="https://www.ajran.dev/tags/.net/index.xml" rel="self" type="application/rss+xml"/><item><title>A Full CRUD for SharePoint Online with .NET 8</title><link>https://www.ajran.dev/blogs/sharepoint-online-crud/</link><pubDate>Sun, 05 Jan 2025 22:26:23 +0600</pubDate><guid>https://www.ajran.dev/blogs/sharepoint-online-crud/</guid><description>&lt;h1 id="a-full-crud-for-sharepoint-online-with-net-8"&gt;A Full CRUD for SharePoint Online with .NET 8&lt;/h1&gt;
+&lt;p&gt;This blog is a short and simple tutorial to help you work with SharePoint Online using &lt;a href="https://dotnet.microsoft.com/en-us/download/dotnet/8.0"&gt;.NET 8&lt;/a&gt; and the &lt;a href="https://pnp.github.io/pnpframework/"&gt;PnP Framework&lt;/a&gt;. While doing some R&amp;amp;D, I decided to document this process in case it helps someone.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Before starting, ensure you have:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;User Credentials: A user account with access to the SharePoint Online site.&lt;/li&gt;
+&lt;li&gt;Make sure this account &lt;strong&gt;must not have MFA enabled&lt;/strong&gt;. If I discover a workaround for this, I will update the blog.&lt;/li&gt;
+&lt;li&gt;Development Environment: .NET 8 installed on your machine.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="step-1-configure-an-application-in-azure-active-directory-aad"&gt;Step 1: Configure an Application in Azure Active Directory (AAD)&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/using-csom-for-dotnet-standard#configuring-an-application-in-azure-ad"&gt;Ref: mslearn&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
